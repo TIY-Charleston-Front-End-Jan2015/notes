@@ -34,7 +34,7 @@ WARNING: The OS X upgrade can take a bit of time to complete and will require a 
 ## HTML/CSS
 HTML and CSS are the foundation of all the content of a webpage or web app. However, we will only be spending about a week on HTML and CSS, so you should have a basic foundation before the class starts.
 
-Complete the Dash course at https://dash.generalassemb.ly/, which covers HTML, CSS, and very basic JavaScript. This should take you approximately 8-15 hours, depending on your prior experience.
+Complete the Code Academy Web course at http://www.codecademy.com/en/tracks/web, which covers HTML and CSS. This should take you approximately 8-15 hours, depending on your prior experience.
 
 ### Supplemental
 If you haven’t completed it already, Codecademy also has an HTML and CSS course.
@@ -78,4 +78,4 @@ Believe it or not, *a lot* of time in the first weeks of programming is spent fi
 If you don't know how to touch type (i.e. type without looking at the keyboard), try to spend some time each day working on touch typing (you can tryhttp://www.keybr.com/). If you already know how to touch type, I would highly recommend working through the JavaScript lessons on http://typing.io. Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
 
 # Learning
-Finally, if you’re interested in learning how best to study and learn, many of the principles that I use to design our course can be found in the book [Make it Stick](http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013)([pub… library](http://www.worldcat.org/title/make-it-stick-the-science-of-successful-learn…)). It is not required for you to read this book, but it might help.
+Finally, if you’re interested in learning how best to study and learn, many of the principles that I use to design our course can be found in the book [Make it Stick](http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013)([public library](http://www.worldcat.org/title/make-it-stick-the-science-of-successful-learning)). It is not required for you to read this book, but it might help.
