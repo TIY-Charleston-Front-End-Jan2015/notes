@@ -77,5 +77,16 @@ Believe it or not, *a lot* of time in the first weeks of programming is spent fi
 
 If you don't know how to touch type (i.e. type without looking at the keyboard), try to spend some time each day working on touch typing (you can tryhttp://www.keybr.com/). If you already know how to touch type, I would highly recommend working through the JavaScript lessons on http://typing.io. Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
 
+# Learn a bit about design
+
+Our class will be focused more on engineering than on design. So, it will be helpful if you already have a pretty good handle on design principles. Here are some helpful resources.
+
+- [An opinionated intro to design](http://uxmyths.com/)
+- [Boring, obvious design = good design](http://blog.capwatkins.com/the-boring-designer)
+- [The golden ratio](http://www.joshuagarity.com/web-design/the-golden-ratio/)
+- [Font size, line-height, and readability](http://mikeyanderson.com/optimal_characters_per_line)
+- [Color theory primer](https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437)
+- [A medium blog entry on UI techniques](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96)
+
 # Learning
 Finally, if you’re interested in learning how best to study and learn, many of the principles that I use to design our course can be found in the book [Make it Stick](http://www.amazon.com/Make-It-Stick-Successful-Learning/dp/0674729013)([public library](http://www.worldcat.org/title/make-it-stick-the-science-of-successful-learning)). It is not required for you to read this book, but it might help.
