@@ -68,7 +68,11 @@ Creates a new file.
 
 ## HTML
 
+Coming soon...
+
 ## CSS
+
+Coming soon...
 
 ## Resources
 
