@@ -37,9 +37,8 @@ HTML and CSS are the foundation of all the content of a webpage or web app. Howe
 Complete the Code Academy Web course at http://www.codecademy.com/en/tracks/web, which covers HTML and CSS. This should take you approximately 8-15 hours, depending on your prior experience.
 
 ### Supplemental
-If you haven’t completed it already, Codecademy also has an HTML and CSS course.
 
-http://www.codecademy.com/en/tracks/web
+- [Eloquent Javascript Book](http://eloquentjavascript.net/)
 
 ## The Command Line
 The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
