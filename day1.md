@@ -71,13 +71,59 @@ Creates a new file.
 
 ## HTML
 
-Coming soon...
+Today we talked about HTML in general, what it actually is and some of the most used tags.
+
+Definition of HTML (via MDN):
+<blockquote>
+HTML adds "markup" to standard English text. "Hyper Text" refers to links that connect Web pages to one another, making the World Wide Web what it is today. By creating and uploading Web pages to the Internet, you become an active participant in the World Wide Web. HTML supports visual images and other media as well. HTML is the language that describes the structure and the semantic content of a web document. Content within a web page is tagged with HTML elements such as <img>, <title>, <p>, <div>, <picture>, and so forth.  These elements form the building blocks of a website.
+</blockquote>
+
+For example, following is the basic structure, tagwise, for a basic html document
+
+```
+<!-- This is a comment -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>This is a title</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- The <head> tag usually contains any external CSS stylesheets or meta information about a particular page -->
+  </head>
+  <body>
+  <!-- The <body> tag is where human-viewable content is stored -->
+  </body>
+</html>
+
+```
 
 ## CSS
 
-Coming soon...
+As defined by the Mozilla Developer Network:
+<blockquote>
+Cascading Style Sheets, most of the time abbreviated as CSS, is a stylesheet language used to describe the presentation of a document written in HTML or XML (including various XML languages like SVG or XHTML). CSS describes how the structured element must be rendered on screen, on paper, in speech, or on other media.
+</blockquote>
+
+In our class today, we covered some of the fundamentals of CSS.
+
+Specifically, we covered:
+
+- inline vs. &lt;style&gt; vs external stylesheet and how that affects the styling and 'cascade' which may override styles
+- You can apply CSS styles to HTML tags like <code>&lt;h1&gt;, &lt;p&gt;, or &lt;div&gt;</code> or other elements/selectors on the page, such as classes or id's.
+- We talked about a few of the properties in css that we can use to style pages such as <code>background-color, margin, padding, font-size, font-weight, color</code> - there are so many more properties that we will be exploring in the coming days/weeks, but please go forth and try to experiment with the other css properties.
+
+```
+/* This is a CSS comment */
+body {
+  background-color: red;
+  font-size: 20px;
+  font-weight: strong;
+}
+
+```
 
 ## Resources
+
+[Command line crash course](http://cli.learncodethehardway.org/book/)
 
 [Treehouse Tutorial of the Console](http://teamtreehouse.com/library/console-foundations)
 
