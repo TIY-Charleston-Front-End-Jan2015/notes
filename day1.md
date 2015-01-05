@@ -75,7 +75,7 @@ Today we talked about HTML in general, what it actually is and some of the most 
 
 Definition of HTML (via MDN):
 <blockquote>
-HTML adds "markup" to standard English text. "Hyper Text" refers to links that connect Web pages to one another, making the World Wide Web what it is today. By creating and uploading Web pages to the Internet, you become an active participant in the World Wide Web. HTML supports visual images and other media as well. HTML is the language that describes the structure and the semantic content of a web document. Content within a web page is tagged with HTML elements such as <img>, <title>, <p>, <div>, <picture>, and so forth.  These elements form the building blocks of a website.
+HTML adds "markup" to standard English text. "Hyper Text" refers to links that connect Web pages to one another, making the World Wide Web what it is today. By creating and uploading Web pages to the Internet, you become an active participant in the World Wide Web. HTML supports visual images and other media as well. HTML is the language that describes the structure and the semantic content of a web document. Content within a web page is tagged with HTML elements such as &lt;img&gt;, &lt;title&gt;, &lt;p&gt;, &lt;div&gt;, &lt;picture&gt;, and so forth.  These elements form the building blocks of a website.
 </blockquote>
 
 For example, following is the basic structure, tagwise, for a basic html document
