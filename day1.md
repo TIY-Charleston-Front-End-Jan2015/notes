@@ -10,6 +10,9 @@ We talked about a few things:
 - terminal basics
 - install iTerm2
 - install Oh-My-Zsh
+- html introduction
+- css introduction
+- basic chrome dev tools
 
 ## Terminal
 
@@ -81,6 +84,8 @@ Coming soon...
 [HTML Element Reference Guide](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 [CSS Reference Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+[Chrome Dev Tools - Chapter 1](http://discover-devtools.codeschool.com/chapters/1?locale=en)
 
 ## Downloads & Installation
 
