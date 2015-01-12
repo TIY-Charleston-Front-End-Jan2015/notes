@@ -1,4 +1,4 @@
-# Day 4 - Intro to Responsive Web Design
+# Day 5 - Intro to Responsive Web Design
 
 Today marked the beginning of Responsive Web Design (RWD) where we covered some basic concepts of media queries and how content should adapt to different devices and scenarios.
 
@@ -22,6 +22,8 @@ Today we covered:
 ## Resources
 
 [RWD Checklist](http://rwdchecklist.com/)
+
+[Responsive Design Basics](https://developers.google.com/web/fundamentals/layouts/rwd-fundamentals/)
 
 [320 and Up - good starting point](http://stuffandnonsense.co.uk/projects/320andup//)
 
