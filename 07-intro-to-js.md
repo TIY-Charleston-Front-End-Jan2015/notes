@@ -20,7 +20,7 @@ In javascript, there is only one type of number, which is double precision float
 
 <blockquote>
 According to the ECMAScript standard, there is only one number type: the double-precision 64-bit binary format IEEE 754 value (number between -(253 -1) and 253 -1). There is no specific type for integers. In addition to being able to represent floating-point numbers, the number type has three symbolic values: +Infinity, -Infinity, and NaN (not-a-number).
-</blockquote> - (MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures]
+</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 ### String
 
@@ -43,11 +43,11 @@ You can add multiple strings together to make a new string, as well as alter a s
 
 <blockquote>
 Boolean represents a logical entity and can have two values: true, and false.
-</blockquote> - (MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures]
+</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 ### Array
 
-(From the Cyberwizard Institute)[https://github.com/cyberwizardinstitute/workshops/blob/master/javascript.markdown]
+[From the Cyberwizard Institute](https://github.com/cyberwizardinstitute/workshops/blob/master/javascript.markdown)
 
 Arrays are ordered lists of values.
 You can make an array with square brackets:
@@ -95,7 +95,7 @@ prints:
 ```
 
 Any expression inside the square brackets will work.
----
+
 #### arrays: length
 
 To get the length of an array, just use `.length`:
@@ -192,7 +192,7 @@ http://mzl.la/14BlbiN
 
 ### Object
 
-(From the Cyberwizard Institute)[https://github.com/cyberwizardinstitute/workshops/blob/master/javascript.markdown]
+[From the Cyberwizard Institute](https://github.com/cyberwizardinstitute/workshops/blob/master/javascript.markdown)
 
 Objects map keys to values.
 
@@ -392,11 +392,225 @@ Everything we can do with dot (updates, assignment
 
 ## Control Flow
 
+### comparison operators
+
+The comparison operators all return a boolean:
+
+* `===` - strict equality
+* `!==` - not strict equality
+* `<` - less than
+* `<=` - less than or equal to
+* `>` - greater than
+* `>=` - greater than or equal to
+
+You might also see coercive equality operators:
+
+* `==` - coercive equality
+* `!=` - not coercive equality
+
+but you should avoid these operators until
+learning about type coercion.
+
+### comparison operators: example
+
+```
+var x = 5;
+console.log(x < 6);
+console.log(x === 2);
+console.log(x !== 5);
+console.log(x >= 5);
+
+// output:
+
+// true
+// false
+// false
+// true
+
+```
+### logical operators
+
+* `&&` - AND
+* `||` - OR
+* `!` - NOT (the opposite truth value)
+
+`!` is a "unary" operator like `++` and `--`
+because it binds to a single value.
+
+`&&` and `||` are "binary" operators
+because they bind to two values:
+one on the left and one on the right.
+---
+### logical operators: example
+
+``` js
+var x = true
+var y = false
+console.log(x && y) // false
+console.log(x || y) // true
+console.log(!(x || y)) // false
+console.log(!y) // true
+
+// outputs:
+
+// false
+// true
+// false
+// true
+```
+### comments
+
+By the way, `//` is the comment operator.
+Anything that follows `//` on a line is
+ignored by the computer.
+
+You can even have whole blocks of comments
+by putting text between `/*` and `*/`:
+
+``` js
+// this is a comment
+console.log('beep boop'); // wow
+/*
+and this is a comment that
+spans multiple
+lines
+*/
+```
+---
+### if
+
+You can make a block of code execute when
+a conditional expression is true using an
+`if` statement.
+
+The conditional expression is the expression
+surrounded by parenethesis following the word
+`if`:
+
+``` js
+var x = 5;
+if (x < 10) {
+  console.log('wow');
+}
+
+// this program will print:
+
+// wow
+```
+---
+but if we change the program to be:
+
+``` js
+var x = 11;
+if (x < 10) {
+  console.log('wow');
+}
+```
+
+then it won't print anything since the
+conditional expression evaluated to false:
+
+#### else
+
+You can put an `else` statement after an
+`if` statement to tell the computer what
+to do if the `if` conditional expression
+wasn't true:
+
+``` js
+var x = 11;
+if (x < 10) {
+  console.log('wow');
+}
+else {
+  console.log('cool');
+}
+
+// will print:
+// cool
+```
+
+# else if
+
+Use `else if` to chain together fall-through cases:
+
+``` js
+var x = 22;
+if (x < 10) {
+  console.log('wow');
+}
+else if (x === 22) {
+  console.log('twotwo');
+}
+else {
+  console.log('cool');
+}
+```
+
+#### nesting conditionals
+
+``` js
+var x = 5;
+if (x < 5) {
+  console.log('lt');
+}
+else {
+  var y = x * 333 + 22;
+  if (y > 1000) {
+    console.log('y > 1000!!!');
+  }
+  else {
+    console.log('y otherwise...');
+  }
+}
+```
+
+#### indentation
+
+Now is a good time to talk about indentation.
+
+First, you'll need to pick an amount of indentation to use
+for each level.
+
+4 spaces, 2 spaces, and tabs are all common amounts of
+indentation.
+
+#### 4 spaces
+
+```
+if (true) {
+  if (true) {
+    if (true) {
+      // ...
+    }
+  }
+}
+```
+#### 2 spaces
+
+```
+if (true) {
+  if (true) {
+    if (true) {
+      // ...
+    }
+  }
+}
+```
+#### first rule of indentation
+
+However you choose to indent, be consistent!
+
+Your code will be much easier for others and yourself to
+read.
+
+Remember to line up closing braces at the same level as
+opening statements!
+
+
 ## Loops/Iteration
 
 ### for loop
-
-# for loop
 
 For loops are like while loops but provide a place for
 initialization and an expression to advance the loop.
@@ -434,7 +648,7 @@ prints:
 90
 ```
 ---
-# looping over an array
+#### looping over an array
 
 A very common use-case for `for` loops is to loop over each
 element in an array:
