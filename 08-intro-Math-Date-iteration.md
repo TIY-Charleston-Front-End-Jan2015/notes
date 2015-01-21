@@ -1,4 +1,4 @@
-# Day 3 - Math/Date JS objects, more iteration
+# Day 8 - Math/Date JS objects, more iteration
 
 As we continue to embark on our javascript journey, we discover some useful global objects and explore more ways to iterate over data.
 
@@ -54,7 +54,11 @@ The charAt() method returns the specified character from a string.
 
 "dog".charAt(1);
 
-// "0"
+// "o"
+
+"dog".charAt(2);
+
+// "g"
 
 ```
 
