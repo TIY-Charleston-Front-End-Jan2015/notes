@@ -76,7 +76,65 @@ The `concat()` string method, combines 2 strings into a new string.
 
 ## Date object
 
+The `Date` object is a built-in object that gives you many standard mathematical methods and constants.
+
+
+
 ## Math object
+
+Below are a few of the methods we covered in class, please consult the [MDN Documentation on the Math Object for more information](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+### `Math.floor()`
+
+<blockquote>
+Returns the largest integer less than or equal to a number "x". Where "x" is the number (parameter)
+</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+
+```js
+
+var pi = Math.PI; // 3.141592653589793
+
+Math.floor(pi);
+
+// 3
+
+```
+
+### `Math.ceil()`
+
+<blockquote>
+The Math.ceil(x) function returns the smallest integer greater than or equal to a number "x".
+</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+
+
+```js
+
+var pi = Math.PI; // 3.141592653589793
+
+Math.ceil(pi);
+
+// 4
+
+```
+### `Math.random()`
+
+<blockquote>
+The Math.random() function returns a floating-point, pseudo-random number in the range [0, 1) that is, from 0 (inclusive) up to but not including 1 (exclusive), which you can then scale to your desired range.  The implementation selects the initial seed to the random number generation algorithm; it cannot be chosen or reset by the user.
+</blockquote>
+
+```js
+
+Math.random();
+
+// 0.765003552660346
+
+Math.random();
+
+// 0.8426717962138355
+
+```
+
+
 
 ## `while() {}` loops
 
