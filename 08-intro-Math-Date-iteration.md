@@ -15,13 +15,15 @@ Today we covered:
 
 ## Some String methods
 
-Below are some of the basic string methods we covered in class today, but there are many methods that are useful in working with strings, such as `.toUpperCase()` and `.toLowerCase()`.  [Check out the MDN to see them all.]([MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+Below are some of the basic string methods we covered in class today, but there are many methods that are useful in working with strings, such as `.toUpperCase()` and `.toLowerCase()`.  [Check out the MDN to see them all.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ### `"string".split("")`
 
 <blockquote>
 The split() method splits a String object into an array of strings by separating the string into substrings.
-</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+</blockquote>
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 
 ```js
 
@@ -35,7 +37,9 @@ The split() method splits a String object into an array of strings by separating
 
 <blockquote>
 The length property represents the length of a string.
-</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
+</blockquote>
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length)
 
 ```js
 "dog".length
@@ -48,7 +52,9 @@ The length property represents the length of a string.
 
 <blockquote>
 The charAt() method returns the specified character from a string.
-</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+</blockquote>
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
 
 ```js
 
