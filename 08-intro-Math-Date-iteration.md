@@ -15,7 +15,9 @@ Today we covered:
 
 ## Some String methods
 
-Below are some of the basic string methods we covered in class today, but there are many methods that are useful in working with strings, such as `.toUpperCase()` and `.toLowerCase()`.  [Check out the MDN to see them all.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+Below are some of the basic string methods we covered in class today, but there are many methods that are useful in working with strings, such as `.toUpperCase()` and `.toLowerCase()`.
+
+- [Check out the MDN to see them all.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ### `"string".split("")`
 
@@ -94,7 +96,9 @@ Below are a few of the methods we covered in class, please consult the [MDN Docu
 
 <blockquote>
 Returns the largest integer less than or equal to a number "x". Where "x" is the number (parameter)
-</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+</blockquote>
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
 
 ```js
 
@@ -110,7 +114,9 @@ Math.floor(pi);
 
 <blockquote>
 The Math.ceil(x) function returns the smallest integer greater than or equal to a number "x".
-</blockquote> - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+</blockquote>
+
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
 
 
 ```js
