@@ -1,6 +1,6 @@
 # Jan 5, 2014 TIY FEE CHS Master Outline
 
-## Week 1
+## Week 1 (html / css / git)
 
 
 	1. intro/expectations/terminal/html(basic)/css(basic)
@@ -12,7 +12,7 @@
 	4. advanced CSS / transitions / keyframe animations
 
 
-## Week 2
+## Week 2 (advanced html/css)
 
 	1. advanced css / responsive design / usability in design / ux
 
@@ -22,36 +22,36 @@
 
 	4. intro to javascript / datatypes/ operators/ control flow(basic)
 
-## Week 3
+## Week 3 (javascript intro / DOM)
 
 	1. Holiday
 
-	2.
+	2. JS - native DOM API
 
-	3. JS - native DOM API
+	3. jQuery DOM traversal/manipulation
 
-	4. jQuery DOM traversal/manipulation
+	4. jQuery Events
 
-## Week 4
+## Week 4 (working with data / crud)
 
 	1. Patterns: Object literal, Revealing Module
 
 	2. Underscore/Lodash
 
-	3. Constructors (basic) - non-DOM
+	3. JSON / CRUD
 
-	4. Constructors (advanced) - w/ DOM
+	4. Review / Collaborative Git w/ pull requests, forking
 
 
-## Week 5
+## Week 5 (api week)
 
-	1. Testing Introduction
+	1. Intro to AJAX (http, REST, GET/PUT/POST/DELETE)
 
-	2. TDD - Mocha/Chai/Sinon
+	2. Promises
 
-	3.
+	3. jQuery $.ajax / Security (same origin / $.ajaxSetup)
 
-	4.
+	4. more $.ajax
 
 
 ## Week 6
@@ -67,27 +67,36 @@
 
 ## Week 7
 
-	1. Angular - Introduction
+	1. Constructors (basic) - non-DOM
 
-	2. Angular Directives/Controllers
+	2. Constructors (advanced) - w/ DOM
 
-	3. Angular Services/CRUD
+	3. TDD - Mocha/Chai/Sinon
 
-	4. Angular Filters
+	4. Backbone - Introduction
 
 
 ## Week 8
 
- 	1. Angular Custom Directives
+ 	1. Backbone - Model/Collection
 
-	2.
+	2. Backbone - Views
 
-	3.
+	3. Backbone - Routes
 
-	4.
+	4. Angular - Introduction
 
 
 # Week 9
+
+  1. Angular Directives/Controllers
+
+	2. Angular Services/CRUD
+
+	3. Angular Filters
+
+	4. Angular Custom Directives
+
 
 # Week 10
 
