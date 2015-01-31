@@ -65,7 +65,7 @@
 	4.
 
 
-## Week 7
+## Week 7 (OO javascript)
 
 	1. Constructors (basic) - non-DOM
 
@@ -76,7 +76,7 @@
 	4. Backbone - Introduction
 
 
-## Week 8
+## Week 8 (MV* Frameworks)
 
  	1. Backbone - Model/Collection
 
@@ -87,9 +87,9 @@
 	4. Angular - Introduction
 
 
-# Week 9
+# Week 9 (Angular)
 
-  1. Angular Directives/Controllers
+	1. Angular Directives/Controllers
 
 	2. Angular Services/CRUD
 
@@ -100,6 +100,32 @@
 
 # Week 10
 
+	1. Requirements Gathering / MVP
+
+	2. Final Project MVP requirements document
+
+	3. Final Project Pitch
+
+	4. Final Project
+
 # Week 11
 
+	1. Final Project
+
+	2. Final Project
+
+	3. Final Project
+
+	4. Final Project
+
 # Week 12
+
+	1. Final Project
+
+	2. Final Project
+
+	3. Final Project
+
+	4. Final Project
+
+	5. DEMO DAY!!!
